@@ -1,9 +1,11 @@
 /* da cancellare  */
 .debug [class*='col-']{
-  background-color: lightblue;
+  /* background-color: lightblue; */
   border: 1px solid black;
   height: 100px;
 }
+
+
 
 /* allineamento testo */
 .t_r{
@@ -14,12 +16,24 @@
   text-align: center;
 }
 
+/* header */
 #navbar{
-  background-color:
+  background-color: lightblue;
 }
 
 
 #jumbotron{
-  background-color:
+  background-color: lightgreen;
+
+}
+/* end header */
+/* main */
+/* section portfolio */
+#portfolio{
+
+}
+
+/* section about */
+#about{
 
 }
