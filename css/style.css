@@ -8,6 +8,7 @@
 
 
 /* allineamento testo */
+
 .t_r{
   text-align: right;
 }
@@ -16,14 +17,33 @@
   text-align: center;
 }
 
+/* colore */
+.color_white{
+  color: white;
+}
+
+
+
+/* padding */
+.p_t{
+  padding: 10px;
+}
+
+.p_r{
+  padding-right: 5px;
+}
+
+/* margine */
+
+
 /* header */
 #navbar{
-  background-color: lightblue;
+  background-color: #2C3E50;
 }
 
 
 #jumbotron{
-  background-color: lightgreen;
+  background-color: #1ABC9C;
 
 }
 /* end header */
@@ -35,5 +55,31 @@
 
 /* section about */
 #about{
+  background-color: #1ABC9C;
+}
+
+/* end section about */
+/* section contact me */
+#contact{
 
 }
+/* <!-- end section contact me --> */
+/* end main */
+
+/* start footer */
+footer{
+
+}
+
+/* footer top */
+.footer_top{
+  background-color: #3A546D;
+
+}
+/* end footer top */
+/* start footer bottom */
+.footer_bottom{
+  background-color: #2C3E50;
+}
+/* end footer bottom */
+/* end footer */
