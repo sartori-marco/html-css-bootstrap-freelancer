@@ -1,0 +1,25 @@
+/* da cancellare  */
+.debug [class*='col-']{
+  background-color: lightblue;
+  border: 1px solid black;
+  height: 100px;
+}
+
+/* allineamento testo */
+.t_r{
+  text-align: right;
+}
+
+.t_c{
+  text-align: center;
+}
+
+#navbar{
+  background-color:
+}
+
+
+#jumbotron{
+  background-color:
+
+}
