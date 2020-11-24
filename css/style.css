@@ -153,14 +153,13 @@ header{
 
 /* start footer */
 footer{
-  height: 500px;
-  /* canecllare altezza */
+
 }
 
 /* footer top */
 .footer_top{
   background-color: #3A546D;
-
+  padding: 40px;
 }
 
 .footer_top h4 a{
@@ -169,7 +168,7 @@ footer{
 
 /* è sbagliato da correggere :( */
 .footer_top ul li a{
-  padding: 10px;
+  padding: 5px;
   font-size: 30px;
   border-radius: 100%;
   border: 1px solid white;
@@ -188,6 +187,7 @@ footer{
 /* start footer bottom */
 .footer_bottom{
   background-color: #2C3E50;
+  padding: 30px;
 }
 /* end footer bottom */
 /* end footer */
