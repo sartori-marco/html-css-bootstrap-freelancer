@@ -1,20 +1,8 @@
 /* da cancellare  */
 .debug [class*='col-']{
-  /* background-color: lightblue; */
+  background-color: lightblue;
   border: 1px solid black;
-  height: 100px;
-}
-
-
-
-/* allineamento testo */
-
-.t_r{
-  text-align: right;
-}
-
-.t_c{
-  text-align: center;
+  height: 300px;
 }
 
 /* colore */
@@ -22,32 +10,60 @@
   color: white;
 }
 
-
-
-/* padding */
-.p_t{
-  padding: 10px;
+.ms_green {
+  background-color: #1abc9c;
 }
 
-.p_r{
-  padding-right: 5px;
+.uppercase{
+  text-transform: uppercase;
 }
 
-/* margine */
 
+/* end classi riutilizzabili */
+header{
+  height: 100px;
+  border-bottom: 0px;
+}
 
 /* header */
-#navbar{
-  background-color: #2C3E50;
+.navbar.ms_navbar{
+  background-color: #2c3e50;
+  border: 0;
+  padding: 20px 0;
 }
 
-
-#jumbotron{
-  background-color: #1ABC9C;
-
+.navbar.ms_navbar .navbar-brand,
+.navbar.ms_navbar .navbar-nav li a{
+  color: white;
+  text-transform: uppercase;
 }
+
+.navbar.ms_navbar .navbar-nav li a:hover{
+  color: #1ABC9C;
+}
+
 /* end header */
 /* main */
+/* #jumbotron */
+
+.ms_star{
+  font-size: 25px;
+}
+
+.ms_star::before,
+.ms_star::after{
+  content: "";
+  display: inline-block;
+  width: 20%;
+  height: 3px;
+  background-color: white;
+  vertical-align: middle;
+
+}
+
+
+
+
 /* section portfolio */
 #portfolio{
 
