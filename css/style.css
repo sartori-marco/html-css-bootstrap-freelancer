@@ -162,6 +162,28 @@ footer{
   background-color: #3A546D;
 
 }
+
+.footer_top h4 a{
+  color: #1ABC9C;
+}
+
+/* è sbagliato da correggere :( */
+.footer_top ul li a{
+  padding: 10px;
+  font-size: 30px;
+  border-radius: 100%;
+  border: 1px solid white;
+}
+
+
+
+.footer_top ul li{
+  display: inline-block;
+}
+
+.footer_top a:hover{
+  color: violet;
+}
 /* end footer top */
 /* start footer bottom */
 .footer_bottom{
