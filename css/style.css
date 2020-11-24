@@ -61,11 +61,16 @@ header{
 
 }
 
-
-
+#jumbotron{
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
 
 /* section portfolio */
-#portfolio{
+#portfolio img{
+  background-size: cover;
+  width: 100%;
+  margin-top: 15px;
 
 }
 
