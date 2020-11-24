@@ -50,8 +50,8 @@ header{
   font-size: 25px;
 }
 
-.ms_star::before,
-.ms_star::after{
+#jumbotron .ms_star::before,
+#jumbotron .ms_star::after{
   content: "";
   display: inline-block;
   width: 20%;
@@ -74,14 +74,51 @@ header{
 
 }
 
+#portfolio .ms_star::before,
+#portfolio .ms_star::after{
+  content: "";
+  display: inline-block;
+  width: 20%;
+  height: 3px;
+  background-color: black;
+  vertical-align: middle;
+
+}
+
+
 /* section about */
 #about{
   background-color: #1ABC9C;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#about .ms_star::before,
+#about .ms_star::after{
+  content: "";
+  display: inline-block;
+  width: 20%;
+  height: 3px;
+  background-color: white;
+  vertical-align: middle;
+
+}
+
+#about p{
+  color: white;
+  font-size: 15px;
 }
 
 /* end section about */
 /* section contact me */
-#contact{
+#contact .ms_star::before,
+#contact .ms_star::after{
+  content: "";
+  display: inline-block;
+  width: 20%;
+  height: 3px;
+  background-color: black;
+  vertical-align: middle;
 
 }
 /* <!-- end section contact me --> */
